@@ -1,0 +1,19 @@
+{
+  "name": "lucas",
+  "version": "1.0.0",
+  "description": "ejemplo de node; DevOps",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "devops"
+  ],
+  "author": "Luc.IO",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mocha": "^6.2.2",
+    "supertest": "^4.0.2"
+  }
+}
