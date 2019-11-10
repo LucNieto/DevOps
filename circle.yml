@@ -1,0 +1,12 @@
+machine:
+  services:
+    - docker
+
+dependencies:
+ override:
+   - docker build -t nodito
+
+test:
+  override:
+    - docker run nodito npm test
+
